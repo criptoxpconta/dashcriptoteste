@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/lovable-uploads/d195b217-fce3-4ad0-ad1d-cfe372317188.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- DNS prefetch for better performance -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Critical font preload for LCP optimization -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    
+    <!-- Font optimization with font-display swap for better performance -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- Resource hints for better performance -->
+    <link rel="prefetch" href="/lovable-uploads/dfef5ea2-b978-4f62-b3d6-c196967882a7.png">
+    <link rel="prefetch" href="/lovable-uploads/a62c4ed4-d657-4d7a-b950-74e68e753e60.png">
+    
+    <!-- SEO and meta tags -->
+    <title>CriptoXP - Plataforma de Gestão de Criptoativos | Dashboard Profissional</title>
+    <meta name="description" content="Gerencie seus criptoativos de forma inteligente com a CriptoXP. Plataforma completa com análise de performance, dashboards intuitivos e segurança total. Comece gratuitamente." />
+    <meta name="keywords" content="criptoativos, bitcoin, ethereum, gestão de investimentos, dashboard, análise financeira, portfolio, crypto, trading" />
+    <meta name="author" content="CriptoXP" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://criptoxp.com" />
+    
+    <!-- Open Graph tags for social media -->
+    <meta property="og:title" content="CriptoXP - Plataforma de Gestão de Criptoativos" />
+    <meta property="og:description" content="Gerencie seus criptoativos de forma inteligente. Plataforma completa com análise de performance e dashboards profissionais." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://criptoxp.com" />
+    <meta property="og:image" content="/lovable-uploads/d195b217-fce3-4ad0-ad1d-cfe372317188.png" />
+    <meta property="og:locale" content="pt_BR" />
+    
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CriptoXP - Plataforma de Gestão de Criptoativos" />
+    <meta name="twitter:description" content="Gerencie seus criptoativos de forma inteligente com análise de performance em tempo real." />
+    <meta name="twitter:image" content="/lovable-uploads/d195b217-fce3-4ad0-ad1d-cfe372317188.png" />
+    
+    <!-- Performance optimizations -->
+    <meta name="theme-color" content="#18bf71" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    
+    <!-- Critical CSS inline (will be added by build tools) -->
+    <style>
+      /* Critical styles for above-the-fold content */
+      body { margin: 0; background: #0a0a0a; color: #fafafa; font-family: 'Inter', sans-serif; }
+      .loading { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+      .spinner { width: 32px; height: 32px; border: 3px solid #333; border-top: 3px solid #18bf71; border-radius: 50%; animation: spin 1s linear infinite; }
+      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- Fallback loading state -->
+      <div class="loading">
+        <div class="spinner"></div>
+      </div>
+    </div>
+    
+    <!-- Module preload for better performance -->
+    <link rel="modulepreload" href="/src/main.tsx">
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service worker registration for caching -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
